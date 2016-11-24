@@ -2,9 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>AdivinaQuien</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+	<div class="container-fluid">
+		<section><!--Header-->
+			<header>
+				<h2>Smash Faces</h2>
+				<hr>
+				<div class="row"><!--parrafo de introduccion-->
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<p class="text-center"><span>Bienvenido al juego Smash Faces </span>Tu mision es identificar a todas tus compañeras de clase ingresando su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente</p>
+					</div>
+				</div>
+			</header>
+		</section>
+		<section ><!--Select de paises-->
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<p class="text-left">Elige tu sede
+					<select id="mySelect">
+					  <option value="lima" ="lima">Lima</option>
+					  <option value="mex" ="mex">México</option>
+					  <option value="peru">Perú</option>
+					</select>
+					</p>
+				</div>
+			</div>
+			<div id="row" class="row">
+				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+					<div id="divUno">
+					</div>
+				</div>
+				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+					<div id="divDos">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!--script-->
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/adivinaQuien.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
